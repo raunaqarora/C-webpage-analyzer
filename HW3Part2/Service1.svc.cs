@@ -99,7 +99,7 @@ namespace HW3Part2
                 foreach (string w in words)
                 {
                     w.Trim();
-                    string webRequestUrl = "http://words.bighugelabs.com/api/2/67beb0fa0b97e398bb7a44894d6ad05a/" + w + "/xml";
+                    string webRequestUrl = "http://words.bighugelabs.com/api/2/"/*Insert API key*/ + w + "/xml";
                     HttpWebRequest request = (HttpWebRequest)WebRequest.Create(webRequestUrl);
                     HttpWebResponse response = (HttpWebResponse)request.GetResponse();
                     if(response.StatusCode == HttpStatusCode.OK)
