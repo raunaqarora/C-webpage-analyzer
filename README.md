@@ -1,4 +1,4 @@
-# C-webpage-analyzer
+# C#-webpage-analyzer
 
 A collection of restful web service written in C# that perform webpage based processing and analyzing.  
 
@@ -14,3 +14,6 @@ The different functions performed are:
     One replaced with synonyms and one replaced with antonyms
 5. Average words per sentence: Takes a url and returns the average words per sentence.
 6. Encrypt/Decrypt: Takes a url/cipher text and a passphrase and returns the encrypted content on the url, or decrypted text.
+
+
+*NOTE: For function 4. Replace with synonyms/antonyms, the api key was removed for privacy. To use the funciton, get an API key from https://words.bighugelabs.com/getkey.php and replace the comment in the function within Service1.svc.cs file. 
