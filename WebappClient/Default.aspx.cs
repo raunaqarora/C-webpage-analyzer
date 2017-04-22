@@ -24,7 +24,7 @@ namespace WebappClient
 
         protected void calcTop10Content_Click(object sender, EventArgs e)
         {
-            string url = @"http://10.1.22.59:7005/Service1.svc/top10content?v=" + top10wordsBox.Text;
+            string url = @"http://10.1.22.59:7005/Service1.svc/top10content?v=" + top10ContentBox.Text;
             resultTop10Content.Text = makeRequest(url);
         }
         protected void calcCustomStop_Click(object sender, EventArgs e)
